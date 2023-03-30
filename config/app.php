@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
+use App\Providers\LaravelInstallerServiceProvider;
 
 return [
 
@@ -185,7 +186,7 @@ return [
         /*
          * Package Service Providers...
          */
-        RachidLaasri\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+        // RachidLaasri\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
 
         /*
          * Application Service Providers...
