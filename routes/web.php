@@ -38,8 +38,7 @@ Route::group(['prefix' => 'install', 'as' => 'LaravelInstaller::', 'middleware' 
 
     Route::post('environment/saveClassic', [EnvironmentController::class,'saveClassic'])->name('environmentSaveClassic');
 
-    Route::get('requirements', [RequirementsController::class,'requirements',
-    ])->name('requirements');
+    Route::get('requirements', [RequirementsController::class,'requirements'])->name('requirements');
 
     Route::get('permissions', [PermissionsController::class,'permissions'])->name('permissions');
 
